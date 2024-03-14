@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Image Gallery</h1>
+
+  <div class="gallery">
+    <!-- Thumbnail Images -->
+    <div class="thumbnail" onclick="openModal('img/lotus.jpg')">
+      <img src="img/lotus.jpg" alt="Thumbnail 1">
+    </div>
+    <div class="thumbnail" onclick="openModal('img/blue.jpg')">
+      <img src="img/blue.jpg" alt="Thumbnail 2">
+    </div>
+    <div class="thumbnail" onclick="openModal('img/tulip.jpeg')">
+      <img src="img/tulip.jpeg" alt="Thumbnail 3">
+    </div>
+    <div class="thumbnail" onclick="openModal('img/blue.jpg')">
+        <img src="img/blue.jpg" alt="Thumbnail 4">
+    </div>
+    <div class="thumbnail" onclick="openModal('img/lotus.jpg')">
+        <img src="img/lotus.jpg" alt="Thumbnail 5">
+    </div>
+    <!-- Add more thumbnails as needed -->
+
+    <!-- Modal for Enlarged Image -->
+    <div class="modal" id="myModal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+        <img id="modalImg" alt="Enlarged Image">
+      </div>
+    </div>
+  </div>
+
+  <!-- Second Row of Thumbnail Images -->
+<div class="gallery">
+    <div class="thumbnail" onclick="openModal('img/Beautiful_nuthatch_eaglenest.jpg')">
+      <img src="img/Beautiful_nuthatch_eaglenest.jpg" alt="Thumbnail 6">
+    </div>
+    <div class="thumbnail" onclick="openModal('img/Forest_wagtail_dandeli.jpg')">
+      <img src="img/Forest_wagtail_dandeli.jpg" alt="Thumbnail 7">
+    </div>
+    <div class="thumbnail" onclick="openModal('img/egle.jpg')">
+      <img src="img/egle.jpg" alt="Thumbnail 8">
+    </div>
+    <div class="thumbnail" onclick="openModal('img/Forest_wagtail_dandeli.jpg')">
+      <img src="img/Forest_wagtail_dandeli.jpg" alt="Thumbnail 9">
+    </div>
+    <div class="thumbnail" onclick="openModal('img/Beautiful_nuthatch_eaglenest.jpg')">
+      <img src="img/Beautiful_nuthatch_eaglenest.jpg" alt="Thumbnail 10">
+    </div>
+  
+    <!-- Modal for Enlarged Image -->
+    <div class="modal" id="myModal2">
+      <span class="close" onclick="closeModal2()">&times;</span>
+      <div class="modal-content">
+        <img id="modalImg2" alt="Enlarged Image">
+      </div>
+    </div>
+  </div>
+<!-- third Row of Thumbnail Images -->
+  <div class="gallery">
+    <div class="thumbnail" onclick="openModal('img/lion.jpg')">
+      <img src="img/lion.jpg" alt="Thumbnail 6">
+    </div>
+    <div class="thumbnail" onclick="openModal('img/fox.jpg')">
+      <img src="img/fox.jpg" alt="Thumbnail 7">
+    </div>
+    <div class="thumbnail" onclick="openModal('img/giraffee.jpg')">
+      <img src="img/giraffee.jpg" alt="Thumbnail 8">
+    </div>
+    <div class="thumbnail" onclick="openModal('img/lion.jpg')">
+      <img src="img/lion.jpg" alt="Thumbnail 9">
+    </div>
+    <div class="thumbnail" onclick="openModal('img/fox.jpg')">
+      <img src="img/fox.jpg" alt="Thumbnail 10">
+    </div>
+  
+    <!-- Modal for Enlarged Image -->
+    <div class="modal" id="myModal2">
+      <span class="close" onclick="closeModal2()">&times;</span>
+      <div class="modal-content">
+        <img id="modalImg2" alt="Enlarged Image">
+      </div>
+    </div>
+  </div>
+
+
+   <!--Slideshow container-->
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="img/Beautiful_nuthatch_eaglenest.jpg" alt="Image 1">
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="img/blue.jpg" alt="Image 2">
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="img/egle.jpg" alt="Image 3">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/Forest_wagtail_dandeli.jpg" alt="Image 1">
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="img/lotus.jpg" alt="Image 2">
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="img/tulip.jpeg" alt="Image 3">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/lion.jpg" alt="Image 1">
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="img/fox.jpg" alt="Image 2">
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="img/giraffee.jpg" alt="Image 3">
+    </div>
+  </div>
+  
+<script src="script.js"></script>   
+</body>
+</html>
